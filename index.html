@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soms Webapplication">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="bower_components/angular-material-data-table/dist/md-data-table.min.css" rel="stylesheet" type="text/css"/>
+
+  <title>Soms Webapplication</title>
+</head>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="bower_components/angular-messages/angular-messages.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/jquery/jquery.min.js"></script>
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+<script src="bower_components/underscore.string/dist/underscore.string.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-material-data-table/dist/md-data-table.min.js"></script>
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
+
+
+<script src="app/app.js"></script>
+<script src="app/app.config.js"></script>
+
+<script src="app/controllers/RegisterCtrl.js"></script>
+<script src="app/controllers/SearchCtrl.js"></script>
+<script src="app/controllers/LoginCtrl.js"></script>
+<script src="app/controllers/HomeCtrl.js"></script>
+<script src="app/controllers/SOMSCtrl.js"></script>
+<script src="app/controllers/DashboardCtrl.js"></script>
+<script src="app/controllers/ReportCtrl.js"></script>
+
+<script src="app/services/authService.js"></script>
+<script src="app/services/roleService.js"></script>
+
+<script src="app/directives/advancedSearch.js"></script>
+
+<body ng-app="soms">
+  <div ui-view="" layout="row" layout-fill="" ng-cloak></div>
+</body>
+
+</html>
